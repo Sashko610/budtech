@@ -1028,7 +1028,7 @@ body::after {
   padding: .9375rem;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0 12px 4px rgba(233,178,26,.5);
+  box-shadow: 0 0 16px 4px rgba(233,178,26,.5);
   transition: all .3s
 }
 .phone._active {
@@ -1363,7 +1363,7 @@ body::after {
 @media (max-width:47.99875em) {
   .menu__body {
     flex-direction: column;
-    row-gap: .9375rem;
+    row-gap: 1.875rem;
     display: flex;
     position: fixed;
     width: 100%;
@@ -1371,7 +1371,7 @@ body::after {
     right: -100%;
     top: 0;
     overflow: auto;
-    padding: 4.375rem .9375rem .9375rem 1.875rem;
+    padding: 5rem .9375rem .9375rem 1.875rem;
     transition: right .3s;
     background-color: #fff;
     z-index: 4
@@ -1520,7 +1520,7 @@ body::after {
 }
 @media (max-width:29.99875em) {
   .menu__body {
-    padding: 4.375rem .9375rem .9375rem .9375rem
+    padding: 5rem .9375rem .9375rem .9375rem
   }
   .input {
     font-size: .875rem
